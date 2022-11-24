@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run prepublish",
+    "prepare": "npm run build",
     "prepublish": "npm run build:js",
     "build:js": "babel --plugins transform-runtime ./src/components -d ./lib",
     "start": "webpack-dev-server --hot --inline",
