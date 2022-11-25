@@ -178,7 +178,7 @@ class Photos extends React.Component {
           mediaHeight = mediaHeight * (ratio / 100);
 
           if (mediaHeight > maxHeight) {
-            photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`;
+            //photoStyle.top = `${(maxHeight - mediaHeight) / 2}px`; // disable this for dockvine
           } else if (mediaWidth > maxWidth) {
             photoStyle.width = "auto";
             photoStyle.height = "100%";
