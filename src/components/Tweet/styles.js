@@ -3,7 +3,6 @@ export default {
     backgroundColor: "#ffffff",
     minHeight: "51px",
     maxWidth: "588px",
-    minWidth: "350px",
     borderBottom: "1px solid #e6ecf0",
     color: "#14171a",
     fontFamily: '"Helvetica Neue", "Helvetica", "Arial", "sans-serif"',
@@ -76,8 +75,7 @@ export default {
     margin: 0,
   },
   footer: {
-    display: "table",
-    width: "100%",
+    width: "80%",
     fontSize: "12px",
     paddingTop: "1px",
   },
@@ -86,12 +84,10 @@ export default {
     lineHeight: "1",
     marginTop: "10px",
     marginBottom: "2px",
-    display: "block",
+    display: "flex",
+    justifyContent: "space-between",
   },
-  ProfileTweetAction: {
-    display: "inline-block",
-    width: "80px",
-  },
+  ProfileTweetAction: {},
   ProfileTweetActionBtn: {
     display: "inline-block",
     fontSize: "16px",
