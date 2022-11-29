@@ -93,8 +93,7 @@ class Header extends React.Component {
           <strong className="fullname" style={styles.fullname}>
             {data.user.name}
           </strong>
-          {verified && verified}
-          <span>&nbsp;</span>
+          {verified === null ? "" : verified}
           <span className="username" style={styles.username}>
             <s style={styles.s}>{"@"}</s>
             <b style={styles.b}>{data.user.screen_name}</b>
