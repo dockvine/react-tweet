@@ -106,7 +106,8 @@ class Header extends React.Component {
             style={styles.timestamp}
             {...linkProps}
           >
-            ·{timestamp}
+            <span>.</span>
+            {timestamp}
           </a>
         </small>
       </div>
