@@ -87,7 +87,7 @@ class Header extends React.Component {
         >
           <img
             className="avatar"
-            src={data.user.profile_image_url}
+            src={data.user.profile_image_url_https}
             style={styles.avatar}
           />
           <strong className="fullname" style={styles.fullname}>
