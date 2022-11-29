@@ -55,6 +55,10 @@ export default {
   time: {
     color: "#657786",
   },
+  dot: {
+    paddingLeft: "2px",
+    paddingRight: "2px",
+  },
   retweet: {
     color: "#657786",
     fontSize: "12px",
