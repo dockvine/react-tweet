@@ -12,7 +12,7 @@ import styles from "./styles";
 class Tweet extends React.Component {
   constructor(props) {
     super(props);
-    console.log("tweet 4");
+    console.log("tweet 5");
     this.toggleModal = this.toggleModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
     this.state = {
