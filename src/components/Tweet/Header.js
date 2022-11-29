@@ -106,8 +106,7 @@ class Header extends React.Component {
             style={styles.timestamp}
             {...linkProps}
           >
-            {" • "}
-            {timestamp}
+            ·{timestamp}
           </a>
         </small>
       </div>

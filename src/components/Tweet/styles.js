@@ -43,6 +43,7 @@ export default {
     unicodeBidi: "embed",
     fontSize: "14px",
     color: "#657786",
+    paddingLeft: "4px",
   },
   s: {
     color: "#b1bbc3",
